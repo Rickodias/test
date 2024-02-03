@@ -1,1 +1,2 @@
-apt install python3-flask  # "xyz"yi paket adıyla değiştirin
+flask
+Flask-RESTful
