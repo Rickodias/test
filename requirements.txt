@@ -1,2 +1,1 @@
-apt install pipx  # pipx'i kurun
-pipx install xyz  # Paketleri pipx ile kurun
+apt install python3-flask  # "xyz"yi paket adıyla değiştirin
