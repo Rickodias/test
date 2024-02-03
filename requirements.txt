@@ -1,2 +1,2 @@
-flask
-Flask-RESTful
+apt install pipx  # pipx'i kurun
+pipx install xyz  # Paketleri pipx ile kurun
