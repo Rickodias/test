@@ -1,23 +1,23 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-    name: app
+    name: project
     namespace: default
     labels:
-        app: app
+        app: project
 spec:
     replicas: 3
     selector:
         matchLabels:
-            app: app
+            app: project
     template:
         metadata:
             labels:
-                app: app
+                app: project
         spec:
             containers:
-                - name: app
-                  image: mirrotech/main:latest
+                - name: project
+                  image: profiteray/main:latest
                   ports:
                       - containerPort: 5000
 
@@ -29,7 +29,7 @@ metadata:
     namespace: default
 spec:
     selector:
-        app: app
+        app: project
     ports:
         - protocol: TCP
           port: 5000
